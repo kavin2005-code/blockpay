@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { clearToken } from '../services/api';
+// import { clearToken } from '../services/api';
 import toast from 'react-hot-toast';
 
 export default function Profile({ user, setPage, onLogout }) {

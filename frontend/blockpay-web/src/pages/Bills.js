@@ -94,7 +94,7 @@ export default function Bills({ setPage }) {
               <div style={styles.fieldLabel}>Select Plan Amount</div>
               <div style={styles.amountGrid}>
                 {rechargeAmounts.map(a => (
-                  <div key={a} style={{...styles.amountBtn, background: form.amount == a ? '#6C63FF' : 'rgba(255,255,255,0.04)', border: form.amount == a ? 'none' : '1px solid rgba(255,255,255,0.1)'}} onClick={() => set('amount', String(a))}>
+                  <div key={a} style={{...styles.amountBtn, background: form.amount === String(a) ? '#6C63FF' : 'rgba(255,255,255,0.04)', border: form.amount === String(a) ? 'none' : '1px solid rgba(255,255,255,0.1)'}} onClick={() => set('amount', String(a))}>
                     Rs.{a}
                   </div>
                 ))}
