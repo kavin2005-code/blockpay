@@ -1,0 +1,9 @@
+node_modules/
+.env
+build/
+.expo/
+blockchain/node_modules/
+backend/node_modules/
+frontend/blockpay-web/node_modules/
+blockpay-app/blockpay-app/node_modules/
+*.pyc
